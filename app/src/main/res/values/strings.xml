@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">CikaraPijatPenjas</string>
+
+    <string name="front_side">Tampak Depan</string>
+    <string name="back_side">Tampak Belakang</string>
+
+    <string-array name="data_massage_head">
+        <item>BUMBLEBEE</item>
+        <item>CREED II</item>
+        <item>ONCE UPON A DEADPOOL</item>
+        <item>HOW TO TRAIN YOUR DRAGON THE HIDDEN WORLD</item>
+        <item>DRAGONBALL SUPER BROLY</item>
+        <item>GLASS</item>
+        <item>HUNTER KILLER</item>
+        <item>MARY POPPINS RETURNS</item>
+        <item>MORTAL ENGINES</item>
+        <item>PREMAN PENSIUN</item>
+        <item>ROBIN HOOD</item>
+        <item>SPIDERMAN INTO THE SPIDER-VERSE</item>
+        <item>THE GIRL IN THE SPIDERS WEB</item>
+        <item>THE MULE</item>
+        <item>VENOM</item>
+    </string-array>
+
+    <array name="data_photo_massage_head">
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_marrypopins</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+
+    <array name="data_video_massage_head">
+        <item>@raw/bumblebee</item>
+        <item>R.raw.poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_marrypopins</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@raw/spiderman_into_the_spider_verse</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+
+    <string-array name="data_description_massage_head">
+        <item>During a run in 1987, Bumblebee found shelter in a junkyard in a small California coastal town. Charlie, the girl who was touching the age of 18 and was looking for identity, found Bumblebee, who was scratched and damaged a lot. While trying to make it work again, Charlie saw for himself that this was not an ordinary yellow VW frog.</item>
+        <item>Creed II will continue the story of Adonis Johnson inside and outside the ring as he faces fame, family problems and an ongoing mission to become a true champion.</item>
+        <item>Wade Wilson (Ryan Reynolds) tries to protect a mysterious mutant targeted by Cable (Josh Brolin). To protect it, Wade then formed a team called X-Force that consisted of Deadpool himself, Domino, Negasonic Teenage Warhead, Colossus, and Bedlam.</item>
+        <item>In this third film, the story will be about Hiccup (Jay Baruchel) who is trying to fulfill his dream of creating a dream land for Vikings and dragons.</item>
+        <item>This is a new story from the Saiyan Nation. Earth is peaceful after the Power Tournament. Realizing that the universe still has many stronger people to find, Goku spent all his days practicing to achieve even better fighting skills. Then one day, Goku and Vegeta were confronted by another Saiyan named Broly whom they had never seen before.</item>
+        <item>Film Glass will continue the search for Kevin Wendell Crumb who escaped after kidnapping the girls. Kevin Wendel Crumbang has 20 personalities in one soul and can turn into a monster when his personality named The Beast appears.</item>
+        <item>Hunter Killer will tell the story of the mission of the United States submarine team to rescue the Russian president who was coup by a militant group in his country.</item>
+        <item>In this latest sequel, formed with a modern taste but still with the touches of his original classic film, Mary Poppins has returned to help the next generation of the Banks family, so that the new generation of children can again find the beauty of life after they experience a tragic loss.</item>
+        <item>Mortal Engines tells the state of the world after the apocalypse. Tom is a twenty-year-old Londoner who only lived in his hometown, and his feet never touched grass, mud or soil.</item>
+        <item>After three years, the Muslihat kecimpring business, which had retired as a thug, was having problems. Sales began to decline. Muslihat also faced a new problem when Safira, her only daughter, had grown into a teenager and began to be visited by men. A bigger problem then arises, when there is a problem between his former subordinates.</item>
+        <item>Robin Hood (Taron Egerton) as a crusader returned to his country under different circumstances. He found corrupt officials and spent royal money while the people were miserable. Together with Little John (Jamie Foxx), he fought a very strong British tyranny.</item>
+        <item>Spider-Man crosses parallel dimensions and collaborates with Spider-Men from these dimensions to stop threats to all reality.</item>
+        <item>The Girl in the Spiders Web will revolve around a young computer hacker Lisbeth Salander (Claire Foy) and journalist Mikael Blomkvist (Sverrir Gudnason) finding themselves trapped in spy networks, cybercriminals and corrupt government officials.</item>
+        <item>A 90-year-old horticultural expert and Korean War veteran was caught transporting $ 3 million worth of cocaine through Illinois for Mexican drug cartels.</item>
+        <item>A journalist, Eddie Brock (Tom Hardy) wants to make an investment case for the discovery led by Dr. Carlton Drake (Riz Ahmed). Because of his investigation, Eddie visited Dr.s lab Calrlton Drake. Everything is intended to prove that Dr. Carlton Drake is doing an evil act using Symbiote.</item>
+    </string-array>
+</resources>
