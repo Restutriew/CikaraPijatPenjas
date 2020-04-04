@@ -12,5 +12,7 @@ public class MassageBenefitActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_massage_benefit);
+        getSupportActionBar().setTitle("Manfaat Massage");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

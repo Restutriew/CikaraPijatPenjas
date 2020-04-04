@@ -28,7 +28,9 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    //libarary circlemenu
+    //library Viewpager
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    //library circlemenu
     implementation 'com.github.Hitomis:CircleMenu:v1.1.0'
     //library bottommodal
     implementation 'com.google.android.material:material:1.2.0-alpha05'

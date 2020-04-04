@@ -1,78 +1,1498 @@
 <resources>
-    <string name="app_name">CikaraPijatPenjas</string>
+    <string name="app_name">Sport Massage</string>
+
+    <string name="supported_by">Supported by</string>
 
     <string name="front_side">Tampak Depan</string>
     <string name="back_side">Tampak Belakang</string>
 
-    <string-array name="data_massage_head">
-        <item>BUMBLEBEE</item>
-        <item>CREED II</item>
-        <item>ONCE UPON A DEADPOOL</item>
-        <item>HOW TO TRAIN YOUR DRAGON THE HIDDEN WORLD</item>
-        <item>DRAGONBALL SUPER BROLY</item>
-        <item>GLASS</item>
-        <item>HUNTER KILLER</item>
-        <item>MARY POPPINS RETURNS</item>
-        <item>MORTAL ENGINES</item>
-        <item>PREMAN PENSIUN</item>
-        <item>ROBIN HOOD</item>
-        <item>SPIDERMAN INTO THE SPIDER-VERSE</item>
-        <item>THE GIRL IN THE SPIDERS WEB</item>
-        <item>THE MULE</item>
-        <item>VENOM</item>
+    <string name="titleSlide1">Selamat Datang Di Aplikasi Pengenalan Massage</string>
+    <string name="descSlide1">Aplikasi ini Berisi Tentang bagaimana cara sport massage yang baik dan benar.\n\n
+    Berisi video-video tutorial menarik yang memudahkan anda dalam melakukan pembelajaran sport massage secara mandiri.
+    </string>
+    <string name="titleSlide2">Pengenalan Menu</string>
+    <string name="descSlide2">Mengenalkan Menu Tombol</string>
+    <string name="titleSlide3">Lets Get Started</string>
+    <string name="descSlide3">Ayo Kita Mulai</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">GOT IT</string>
+
+    petunjuk
+    <string name="petunjuk_anatomi">Menu Untuk Menampilkan Jenis-Jenis Anatomi dan Fisiologi</string>
+    <string name="petunjuk_massage">Menu Untuk Menampilkan Pengertian dari Sport Massage</string>
+    <string name="petunjuk_benefit">Menu Untuk Menampilkan Manfaat dari Sport Massage</string>
+    <string name="petunjuk_prepare">Menu Untuk Menampilkan Persiapan Sebelum Melakukan Masage</string>
+    <string name="petunjuk_manipulation">Menu Untuk Menampilkan Beragam Macam Video Massage</string>
+    <string name="petunjuk_petunjuk">Menu Untuk Menampilkan Petunjuk Penggunaan Aplikasi</string>
+    <string name="petunjuk_about">Menu Untuk Menampilkan Referensi dan Pengembang</string>
+
+
+
+    anatomi
+    <string name="anatomi">\t\t\t Seorang yang melakukan massage, terlebih dahulu harus memahami struktur anatomi dan fisiologi tubuh manusia. Anatomi dan fisiologi sangat erat kaitannya dengan massage, karena ketika seorang masseur melakukan teknik manipulasi massage, masseur akan langsung berhadapan dengan struktur anatomi dan fisiologi tubuh manusia khususunya pada bagian tulang, otot, saraf maupun yang lainnya. Oleh karena itu, pemahaman seorang masseur terhadap anatomi dan fisiologi, akan mempermudah seorang masseur mengembalikan fungsi tubuh yang membutuhkan perlakuan (pijatan). \n
+        \t\t\t Anatomi adalah ilmu yang mempelajari letak, bentuk dan susunan tubuh manusia, serta hubungan antar bagian yang ada didalamnya. Sedangkan fisiologi adalah ilmu yang mempelajari fungsi atau kerja tubuh manusia dalam keadaan normal. \n
+        \t\t\t Dalam anatomi terdapat 12 Sistem yaitu skelet (kerangka), muscular (otot), nervorum (saraf), hemo hidro limfatik (darah cairan jaringan getah bening), respiraasi (pernafasan), kardivaskular (jantung-pembuluh darah), termoregulasi (tata suhu tubuh), digestivus (pencernaan), sensoris (pengindra), exkresi (pembuangan), endokrin (hormon) dan reprodusi (pemulih generasi). \n
+        \t\t\t Fisiologi terdapat 12 sistem dikelompokan dalam sistem kerja atau ergosistema yang dikelompokkan menjadi SK 1 pelaksana, SK 2 pendukung dan SK 3 pemulih atau ES-1, ES-2 dan ES-3. Menurut Giriwijoyo, Santosa dan Sidiq, Dikdik Jafar (2020:5} Ergosistema adalah sekumpulan struktur anatomis yang secara bersama-sama menjadi satu kesatuan fungsional (fisiologis) yang aktif ketika bekerja atau berolahraga.
+    </string>
+    <string name="list">
+        1. Perangkat pelaksana gerak, disebut ergosistema primer(ES-I) atau sistem kerja primer (SK-I) yang terdiri dari:\n
+            \t\t\t a.Sistem skelet\n
+            \t\t\t b.Sistem muscular\n
+            \t\t\t c.Sistem nervorum\n
+
+        2. Perangkat pendukung gerak, disebut ergosistema sekunder (ES-II) atau sistem kerja sekunder (SK-II) yang terdiri dari:\n
+            \t\t\t a.Sistem hemo-hidro-limfatik\n
+            \t\t\t b.Sistem respirasi\n
+            \t\t\t c.Sistem kardiovaskular\n
+
+        3. Perangkat pemulih/pemelihara, disebut ergosistema tersier (ES-III) atau sistem kerja tersier (SK-III) yang terdiri dari:\n
+            \t\t\t a.Sistem digestivus\n
+            \t\t\t b.Sistem ekskresi\n
+            \t\t\t c.Sistem reproduksi\n
+            \t\t\t Es-III ini berperan lebih dominan pada istirahat.\n
+        Pada waktu bekerja dan berolahraga, ergosistema yang berperan dominan adalah ES-I dan ES-II.\n
+        Sumber. (Giriwijoyo, Santosa dan Sidiq, Dikdik Jafar, 2020:5).
+    </string>
+
+    <string name="sistemtulangkerangka">•Sistem Tulang dan Kerangka</string>
+    <string name="sistemtulangkerangkadesc">\t\t\tKerangka manusia dewasa disusun oleh 206 buah tulang, yang satu dan lainnya ada yang dihubungankan secara langsung (persambungan) dan tidak langsung (persendian), serta diperkuat oleh jaringan ikat, jaringan rawan dan otot. Menurut Sarwadi dan Linangkung, Erfanto (2014:93) “tulang dibentuk jaringan utama yang terdiri dari kalsium dan sifatnya kaku”. Tulang memiliki fungsi sebagai alat gerak pasif juga sebagai tempat berkaitnya otot, selain itu tulang memberikan perlindungan terhadap organ-organ yang ada dalam tubuh manusia.</string>
+    <string name="sistemtulangkerangkalink">https://www.gurupendidikan.co.id/sistem-anatomi-tubuh-manusia/</string>
+
+    <string name="sistempersendian">•Sistem Persendian</string>
+    <string name="sistempersendiandesc">\t\t\tMenurut Sarwadi dan Linangkung, Erfanto (2014:96) “persendian merupakan pertemuan dua buah tulang atau beberapa tulang kerangka”. Selanjutnya untuk komponen penunjang gerakan persendian yaitu: Ligamen (jaringan ikat yg berfungsi mengikat bagian luar ujung tulang), kapsul sendi (lapisan serabut yang berfungsi melapisi sendi dan menghubungkan dua buah tulang yg membentuk persendian), cairan sinovial (cairan pelumas pada ujung tulang), tulang rawan (jaringan rawan yg menutupi kedua ujung tulang), jenis persendian (bentuk persendian yg mempengaruhi luas tidaknya gerakan). Selain itu, pergerakan dalam persendian diakibatkan adanya kontraksi otot sehingga sendi dapat bergerak dengan mudah. Jenis persendian diantaranya sebagai berikut:</string>
+    <string name="sistempersendianpoin">
+        1. Sinartrosis (sendi mati). Dalam sendi ini, kedua ujung tulang dihubungkan dengan jaringan ikat fibrosa atau kartilago yang pada akhirnya mengalami penulangan dan tidak memungkinkan adanya gerak. Jenis sendi ini, yaitu sendi sutura (dapat ditemukan pada tulang tengkorak) dan sendi sikondasis (antara tulang dada dengan tulang rusuk dihubungkan dengan kartilago hialin).\n
+        2. Sendi Amfiartrosis (sendi dengan pergerakan terbatas). Sendi yang dihubungkan melalui tulang rawan sehingga memungkinkan sedikit gerak akibat elastisitas tulang rawan. Contohnya tulang rusuk dengan tulang dada.\n
+        3. Sendi Diartrosis (sendi yang bergerak dengan bebas). Sendi ini memiliki rongga sendi yang berisi cairan sinovial. Hubungan antar tulang memungkinkan terjadinya gerak karena pada ujung-ujung tulang terdapat lapisan tulang rawan hyaline, yang dilumasi dengan cairan sinovial.\n
+        4. Sendi engsel. Sendi ini terdiri dari sebuah tulang yang masuk pada permukaan konkaf tulang kedua sehingga memungkinkan gerakan satu arah. Contohmya pada sendi lutut dan siku.\n
+        5. Sendi steroidal. Sendi ini terdiri dari sebuah tulang yang masuk ke dalam rongga yang berbentuk cangkir pada tulang lain. Contohnya sendi panggul dan bahu.\n
+        6. Sendi peluru. Sendi peluru adalah salah satu sendi yang permukaan kedua tulang berartikulasi berbentuk dasar, sehingga memungkinkan gerakan meluncur antar saru tulang dengan tulang yang lainnya. Contohnya terdapat antara tulang lengan dengan gelang bahu atau tulang paha dengan gelang panggul.\n
+        7. Sendi putar. Sendi putar/ kisar yaitu tulang berbentuk kerucut yang masuk pada cekungan tulang kedua dan dapat berputar ke semua arah. Contohnya tulang atlas persendian bagian kepala.\n
+        8. Sendi kondiloid. Sendi memungkinkan gerakan ke dua arah disudut kanan setiap tulang. Contohnya tulang radius dan tulang karpal.\n
+        9. Sendi pelana. Sendi pelana yaitu permukaan tulang yang berartikulasi berbentuk konkaf di satu sisi dan konkaf di sisi lain. Sehingga, tulang yang masuk seperti dua pelana yang saling menyatu. Contohnya persendian antara tulang karpal dan metacarpal pada ibu jari.
+    </string>
+    <string name="sistempersendiansumber">Sumber. (Sarwadi dan Linangkung, Erfanto, (2014:96-99)</string>
+
+    <string name="sistemkulit">• Kulit</string>
+    <string name="sistemkulitdesc1">\t\t\tMenurut Sarwadi dan Linangkung, Erfanto, (2014:75) “kulit merupakan pembungkus elastis berupa jaringan yang menutup seluruh tubuh dan melindungi tubuh dari pengaruh lingkungan seperti cuaca, polusi, temperatur udara, dan juga sinar matahari”.</string>
+    <string name="sistemkulitsumbergambar">https://www.gurupendidikan.co.id/pengertian-kulit/</string>
+    <string name="sistemkulitdesc2">\t\t\tKetika pelaksanaan massage seorang masseur dapat menggunakan berat tubuhnya untuk membantu penekanan saat melakukan massage. Hal ini dilakukan karena vareasi kulit maupun otot pada setiap orang berbeda-beda.\n
+    Beberapa fungsi kulit diantaranya sebagai berikut:
+    </string>
+    <string name="sistemkulitpoin">
+    1. Sebagai organ pengatur panas tubuh, karena pada tubuh seseorang cenderung tetap atau bahkan berubah tergantung dengan suhu dari lingkungan tempat tinggal.\n
+    2. Sebagai indera peraba, karena letak dari rangsangan itu sendiri berada pada ujung saraf kulit dan biasanya berbeda-beda menurut ujung saraf yang irangsang tersebut.\n
+    3. Sebagai pelindung organ bawah kulit atau penyimpan, dinamakan jaringan adipose yang berfungsi menyimpan lemak utama dalam tubuh.\n
+    4. Tempat dibuatnya vitamin D dengan bantuan sinar matahari.\n
+    5. Pengatur dan penyeimbang suhu tubuh.\n
+    6. Tempat penimbun lemak.
+    </string>
+
+    <string name="sistemotot">• Sistem Otot</string>
+    <string name="sistemototdesc1">
+    \t\t\tMenurut Sarwadi dan Linangkung, Erfanto (2014:57) “otot merupakan jaringan konektif yang memiliki tugas berkontraksi, yaitu menggerakkan bagian-bagian tubuh, baik yang disadari maupun yang tidak disadari”. Gerakan pada tubuh merupakan hasil dari kerjasama dari otot dan tulang.\n
+    \t\t\tUntuk menghasilkan suatu gerak otot bekerja berpasangan dengan otot lain secara berlawanan (misalnya: pada gerakan fleksi, bicep memendek, tricep memanjang) maka biceps dan triceps bekerja secara antagonis. Otot bekerja bersamaan saling menunjang (misalnyanya: beberapa otot fleksor pada gerakan fleksi, melakukan kerja saling menunjang), maka otot-otot fleksor bekerja secara sinergis.
+    </string>
+    <string name="sistemototsumber">https://www.secangkirterapi.com/2017/10/anatomi-otot-otot-besar-manusia-atau.html</string>
+    <string name="sistemototdesc2">\t\t\tJika dilihat dari dasarnya ada tiga jenis mekanisme kontraksi otot, yaitu: otot rangka, otot jantung, dan otot polos.</string>
+
+    <string name="sistemsyaraf">• Sistem syaraf</string>
+    <string name="sistemsyarafdesc">
+    \t\t\tSistem saraf merupakan bagian penting dalam tubuh manusia, karena semua sistem kerja yang ada pada tubuh dikendalikan oleh sistem saraf. Menurut Sarwadi dan Linangkung, Erfanto (2014:57) “sistem saraf adalah sistem kordinasi terstruktur yang bekerja menyampaikan rangsangan dari reseptor/ penerima dan kemudian dideteksi menjadi sebuah respons atau tindakan oleh tubuh”.\n
+    \t\t\tMekanisme kerja sistem saraf yaitu: Rangsangan yg diterima oleh receptor akan dihantarkan oleh saraf perifer (saraf tepi) ke sistem saraf pusat. Dalam SSP terjadi pengolahan untuk menentukan jawaban (respon), dan melalui sistem saraf tepi menuju efektor yang berfungsi sebagai pencetus jawaban akhir. Jawaban tersebut dapat bersifat volunter (di bawah kemauan) atau involunter (tidak dipengaruhi kemauan). Respon volunter melibatkan sistem saraf somatik, yang berfungsi sebagai efektornya adalah otot lurik, sedangkan respon involunter melibatkan saraf otonom, yang berfungsi sebagai efektornya adalah otot polos, otot jantung dan kelenjar.
+    </string>
+    <string name="sistemsyarafsumber">https://id.wikipedia.org/wiki/Sistem_saraf_tepi</string>
+
+    menumassage
+    <string name="massagemenurutahli">• Massage menurut ahli</string>
+    <string name="massagemenurutahlidesc">\t\t\tKata massage berasl dari kata arab “mash”yang berarti “menekan dengan lembut” atau kata Yunani “massien” yang berarti “memijat” atau “melulut”. Selanjutnya massage disebut pula ilmu pijat atau ilmu lulut. Para pelakunya biasa disebut sebagai masseur untuk pria dan masseus untuk wanita.</string>
+    <string name="massagesumber1">Sumber. (Setiawan, Arif, 2015:4).</string>
+    <string name="massagepoin1">
+    • Beard dan Wood (1964) massage merupakan “suatu istilah yang digunakan untuk menerangkan manipulasi-manipulasi pada jaringan lunak badan seseorang yang dilaksanakan dengan tangan”.\n
+    • Depsos RI (1998) mendefinisikan “massage sebagai pijat yang telah disempurnakan dengan ilmu-ilmu tentang tubuh manusia, dilakukan pada tubuh seseorang dengan bermacam-macam bentuk pegangan dan manipulasi”.
+    </string>
+    <string name="massagesumber2">Sumber. (Darni, 2018:3)</string>
+    <string name="massagedesc2">Sedangkan sport massage menurut para ahli yaitu:</string>
+    <string name="massagepoin2">
+    • Darni (2018:7) massage olahraga (sport massage) adalah .pijatan yang dimanfaatkan dalam bidang keolahrgaan dengan tujuan untuk membentuk dan memelihara kondisi badan, mempersiapkan, meningkatkan kerja fisik, dan menghilangkan akibat melakukan olahraga yang merugikan seperti kelelahan dan sebagainya.\n
+    • Wijanarko, Bambang dan dkk (2010:9) sport massage adalah massage yang khusus digunakan dan diberikan pada orang-orang yang sehat badannya, terutama olahragawan.
+    </string>
+
+    <string name="macammassage">• Macam-Macam Massage</string>
+    <string name="macammasagepoin">
+    1. Sport Massage\n
+    \t\tMassage Olahraga adalah massage yang khusus digunakan atau diberikan kepada orang-orang yang sehat badannya, terutama olahragawan. Diberikan hanya kepada orang yang sehat ke bagian badan, serta macam dan cara memijatnya yang lebih diutamakan kepada pengaruhnya terhadap kelancaran peredaran darah.\n
+    2. Massage Penyembuhan\n
+    \t\tMassage Penyembuhan yaitu massage yang ditujukan untuk membantu penyembuhan terhadap gangguan atau kelainan-kelainan fisik, gangguan pada bagian-bagian tubuh tertentu yang terutama disebabkan oleh cuaca, kerja yang kelewatan batas, perkosaan atau paksaan (trauma) pada badan serta kelainan-kelainan fisik yang disebabkan oleh penyakit tertentu.\n
+    3. Massage Kecantikan\n
+    \t\tMassage Kecantikan adalah massage yang khusus ditujukan untuk memelihara serta meningkatkan kecantikan dan keindahan, baik kecantikan muka maupun keindahan tubuh beserta bagian-bagiannya.
+    </string>
+    <string name="macammasagesumber">Sumber. (Setiawan, Arif 2015:4-6).</string>
+
+    <string name="tujuanmassage">• Tujuan Massage Olahraga</string>
+    <string name="tujuanmassagepoin">
+    1. Preparatif, mempersiapkan faktor psikosomatif atlet atau olahragawan dengan baik.\n
+    2. Preventif, memfungsikan alat gerak (motorik) atau alat kordinasi secara baik, dan memperkecil kemungkinan terjadinya cedera.\n
+    3. Kuratif, untuk penyembuhan cedera ringan yang dialami olahragwan.
+    </string>
+    <string name="tujuanmassagesumber">Sumber. (Darni, 2018:11-12)</string>
+
+    <string name="kontra">• Kontra indikasi penggunaan massage</string>
+    <string name="kontradesc">Kontra indikasi dalam massage sama artinya dengan pantangan massage atau suatu keadaan yang menyebabkan seseorang tidak boleh dimassage. Contoh beberapa kontra indikasi dalam massage adalah sebagai berikut.</string>
+    <string name="kontrapoin">
+    1. Sedang menderita penyakit menular (Tifus, Kolera, Disentri, Tuberkulose).\n
+    2. Demam malaria.\n
+    3. Penyakit kulit (Kadas, Kurap, Kudis, Panu atau Panau, Lepra, Kusta, Cacar, Morbili, Campak).\n
+    4. Bermacam peradangan (Raadang kulit, Radang otot, Radang usus buntu).\n
+    5. Tumor.\n
+    6. Sedang hamil.\n
+    7. Sedang datang bulan.\n
+    8. Patah tulang (Fraktura).\n
+    9. Asma jantung.\n
+    10. Sehabis operasi.\n
+    11. Kurang dari 1.5-2 jam setelah makan.\n
+    12. Panas tinggi (lebih dari 38\u00B0 C).
+    </string>
+    <string name="kontrasumber">Sumber. (Darni, 2018:20-21)</string>
+
+    <string name="sejarah">• Sejarah Massage</string>
+    <string name="sejarahpoin">
+        • Bangsa Cina kurang lebih dari 3000 tahun sebelum masehi dalam buku suci orang cina yang “Kong Fu” bahwa mengurut tubuh dan menarik persendian sebagai cara pengobatan.\n
+        • Bapak dari ilmu kedokteran yaitu Hippocrates (430-360 SM) menulis bahwa massage dapat memperkuat persendian yang lemah dan dapat memperbaiki persendian yang kaku.\n
+        • Geleneus seorang dokter Yunani yang berhasil memperkenalkan massage di Romawi.\n
+        • Pehr Hendrik Ling (1776-1839) menggariskan dasar-dasar senam dan massage swedia.
+    </string>
+    <string name="sejarahsumber">Sumber. (Darni, 2018:8-9)</string>
+
+    menumanfaatmassage
+    <string name="manfaatmassage">• Manfaat sport massage bagi jaringan tubuh</string>
+    <string name="jaringansaraf">a. Jaringan Saraf</string>
+    <string name="jaringansarafpoin">
+    1)	Mengentro secara sadar di dalam sistem saraf pusat dan sistem saraf perifer.\n
+    2)	Mempercepat pasokan darah pada sistem sarf pusat dan sistem saraf perifer.\n
+    3)	Mengurang rintangan persepsi dan mempercepat reaksi saraf.
+    </string>
+    <string name="jaringankulit">b. Jaringan Kulit</string>
+    <string name="jaringankulitpoin">
+     1)	Memperlancar peredaran darah di dalam vena.\n
+    2)	Memperluas pembuluh denyut.\n
+    3)	Meninggikan kekuatan tegangan otot kulit.\n
+    4)	Melembutkan kulit.\n
+    5)	Memperbaiki metabolism
+    </string>
+    <string name="jaringanotot">c. Jaringan Otot</string>
+    <string name="jaringanototpoin">
+     1)	Mengontrol perangsangan di dalam sistem otot.\n
+    2)	Mengontrol kontraksi otot dan pendorongan otot.\n
+    3)	Memulihkan stamina dan kemampuan olahraga.\n
+    4)	Menyembuhkan ceddera otot dan mengembalikan elastisitas otot.\n
+    5)	Memperlancar pasokan darah untuk memperkuat otot.\n
+    6)	Mengaktifkan energy otot.\n
+    7)	Meningkatkan 5-7 kali kemampuan otot dalam olahraga.
+    </string>
+    <string name="peredarandarah">d. Peredaran darah</string>
+    <string name="pereadarandarahpoin">
+    1)	Mempercepat peredaran darah.\n
+    2)	Memperlancar pasokan oksigen.\n
+    3)	Mempercepat pasokan gizi ke darah.\n
+    4)	Memperbesar fungsi pembuluh kapiler.\n
+    5)	Menaikkan kuantitas sel darah putih dan sel darah merah.\n
+    6)	Memperbaiki pasokan gizi ke dalm jaringan tubuh.\n
+    7)	Menutup meresapnya bakteri ke dalam jaringan.\n
+    8)	Mempercepat kenaikkan sekresi kencing.\n
+    9)	Mempercepat sekresi air.\n
+    10)	Memperbaiki metabolisme dalam otot.\n
+    11)	Membuat pernapasan teratur.\n
+    12)	Menguatkan sistem otot pernapasan.
+    </string>
+
+    <string name="sifatmassage">• Sifat dan Pengaruh Massage</string>
+    <string name="sifat">a. Sifat</string>
+    <string name="sifatpoin">
+    1)	Menenangkan (sedatif).\n
+    2)	Menggerakkan (stimulared).\n
+    3)	Menghilangkan rasa sakit.\n
+    4)	Menghilangkan bahan kotoran (deplotorich).\n
+    5)	Membersihkan dan menyehatkan kulit (desquamatif).\n
+    6)	Menyenangkan pikiran (psychis)
+    </string>
+    <string name="pengaruh">b. Pengaruh</string>
+    <string name="kulit">1) Kulit</string>
+    <string name="kulitpoin">
+    a)	Desquamatif, kulit yang dimassage jadi bersih.\n
+    b)	Diplotorich, pada kulit yang di massage terjadi reaksi dalam kulit/otot tubuh sehingga merangsang keluarnya cairan/kotoran dari tubuh.\n
+    c)	Terjadi panas.
+    </string>
+    <string name="otot">2) Otot</string>
+    <string name="ototpoin">
+    a)	Stimulared, merangsang gerakan-gerakan tubuh.\n
+    b)	Sendatif, otot yang mengalami kelelahan akan mengalami pengenduran dan relaksasi.\n
+    c)	Deplotorich, akan memperlancar peredaran darah sehingga penumpukkan asam laktat dapat dikurangi, kelelahan dapat disembuhkan.
+    </string>
+    <string name="persendian">3) Persendian</string>
+    <string name="persendianpoin">
+    a)	Stimulared, merangsang gerak persendian, mencegah cedera dan menyiapkan gerakan yang lebih luas.\n
+    b)	Diplotorich, mencegah kelelahan yang terjadi pada persendian.
+    </string>
+    <string name="saraf">4)	Saraf</string>
+    <string name="sarafpoin">
+    a)	Sendatif, menenangkan (pasien yang dipijat merasa nyaman)
+    b)	Phychis, menyatakan yang sakit jadi sembuh
+    </string>
+    <string name="manfaatsumber">Sumber. (Setiawan, Arif, 2015:6-10)</string>
+
+
+    menupersiapanmassage
+    <string name="perlengkapandanalat">• Perlengkapan dan alat-alat yang digunakan</string>
+    <string name="ruangmassage">a. Ruang massage lengkap dengan peralatannya</string>
+    <string name="ruangmassagedesc">\t\t\tKamar yang cukup luas dan bersih dengan pengaturan udara yang baik dan segar, ruangan harus memiliki penerangan yang cukup, ada matras ataupun alas yang lain, kemudian peralatan pijat yang lain dan obat-obatan/ P3K, sangat ideal untuk dijadikan ruang massage.</string>
+    <string name="bed">b. Bed atau tempat tidur Massage</string>
+    <string name="beddesc">\t\t\tBed ini dapat dibuat dari kayu atau besi dengan bentuk sederhana. Bed sebaiknya bisa diatur untuk tidur telungkup, telentang, ataupun untuk setengah duduk/ berbaring tegak. Kemudian bed diberi kasur yang tidak terlalu lunak. Sediakan juga bantal sebagai alas kepala yang digunakan pada massage untuk daerah tuungkai dan tangan, selain itu bantal tidak digunakan.\n
+    \t\t\tSelain itu, sediakan guling untuk alat tumpuan yang diletakkan dibawah tungkai pada daerah persendian lutut dan pergelangan kaki. Tujuannya adalah untuk membuat agar otot-otot yang akan dimassage menjadi rileks. Guling besar digunakan pada waktu massage dalam posisi telentang, diletakkan dibawah sendi lutut, hingga seluruh otot tungkai dan otot perut menjadi sangat kendor. Guling kecil digunakan pada posisi telungkup diletakkan dibawah sendi pergelangan kaki, hingga seluruh otot tungkai atas dan tungkai bawah menjadi rileks.</string>
+    <string name="handuk">c. Handuk dan Sabun</string>
+    <string name="handukdesc">\t\t\tMassage adalah pekerjaan dibidang kesehatan, karena seorang masseur yang baik pasti akan selalu menjaga kebersihannya. Tidak hanya kebersihan badan, pakaian, tetapi terutama kebersihan tangan. Setiap kali sebelum dan sesudah massage tangan harus dicuci bersih dengan sabun dan kemudian dikeringkan dengan handuk. Handuk di samping untuk mengeringkan tangan juga untuk menyeka keringat yang akan selalu mengucur, lebih-lebih disaat udara panas dan dalam ruang yang tidak berpendingin. Jangan sampai air ataupun keringat menetes di bandan pasien, yang dapat menimbulkan perasaan tidak enak pada pasien.</string>
+    <string name="alatpelicin">d. Alat-alat atau bahan pelicin</string>
+    <string name="alatpelicindesc1">\t\t\tBahan pelicin atau pelancar dimaksudkan untuk mempermudah dalam pelaksanaan massage, mengurangi rasa sakit atau pedih yang timbul, terutama untuk menghadapi kulit pasien yang sangat kering atau berbulu tebal.\n
+    \t\t\tAda beberapa macam alat pelican yang dapat digunakan, diantaranya adalah: Minyak dari tumbuh-tumbuhan, minyak zaitun, minyak cengkeh dan sebagainya, bisa juga dengan handbody, vaseline ataupun dengan massage cream yang sudah banyak jenisnya. Hindari bahan-bahan yang mengandung panas berlebih.</string>
+    <string name="alatpelicinsumber">Sumber. (Arif, Setiawan, 2015:10-15)</string>
+    <string name="alatpelicindesc2">\t\t\tSelain itu, Menurut Darni (2018:29) bahan pelicin yang digunakan tidak boleh merangsang kulit, tidak boleh mengurangi rasa raba, tidak boleh mendinginkan kulit, tidak boleh terlalu pekat atau menyengat, harus dapat diabsorsir kulit, tidak boleh mengandung bahan yang merugikan kesehatan, tidak boleh menutupi pori-pori, harus mudah dicuci, tahan lam tidak mudah rusak dan harus mempunyai bau yang netral.</string>
+
+    <string name="haldiperhatikan">• Hal-hal lain yang perlu diperhatikan dalam massage</string>
+    <string name="tanganmasseur">a.	Tangan Masseur dan Masseuse</string>
+    <string name="tanganmasseurdesc">\t\t\tTangan harus bersih, kuku digunting pendek dan bersih serta rapih. Cingcin, arloji tanngan atau benda-benda lain yang biasa dipakai ditangan harus dilepas terlebih dahulu.</string>
+    <string name="kesehatanbadan">b. Kesehatan dan Kebersihan Badan</string>
+    <string name="kesehatanbadandesc">\t\t\tMassage dibutuhkan kerja otot yang dibantu dengan penggunaan berat badan. Oleh karena itu, badan masseur/masseuse harus cukup sehat dan kuat. Olahraga ringan yang dilakuka secara teratur dan kontinyu akan membantu masseur/masseuse untuk meningkatkan kekuatan dan kesehatan badannya.  Kebersihan badan harus dijaga, tidak ada bau yang tidak sedap yang muncul dari tubuh saat melakukan massage.\n
+    \t\t\tNamun, kebersihan dari tubuh pasien pun harus diperhatikan. Kulit dan pakaian pasien harus bersih, sebab kulit yang kotor justru akan merugikan pasien itu sendiri.</string>
+    <string name="pakaianpraktek">c. Pakaian Untuk Praktek Massage</string>
+    <string name="pakaianpraktekdesc">\t\t\tPada umumnya pakaian untuk praktek massage tidak terlalu mengikat, meskipun factor kebersihan, kepraktisan dan keindahan perlu diperhatikan. Namun pekerjaan massage adalah pekerjaan dibidang kesehatan, maka para masseur sebaiknya menggunakan pula pakaian yang biasa digunakan oleh para pekerja kesehatan. Sedangkan para masseur di lingkungan olahraga umumnya hanya menggunakan pakaian ynag lebih sederhana, pakaian olahraga atau kaos putih dengan training-suit dan sebagainya.</string>
+    <string name="posisipasien">d. Posisi Pasien dan Masseur/ Masseuse</string>
+    <string name="posisipasiendesc">\t\t\tPasien dapat dimassage dalam posisi tidur telungkup, telentang, maupun posisi setengan tidur dan setengah duduk. Masseur menempatkan diri ditempat tertentu hingga dengan mudah dapat menjangkau tubuh pasien dalam sikap yang enak. Masseur dapat berada di sebelah kiri, kanan, dan disebelah atas kepala pasien. Penentuan posisi masseur ini tergantung dari daerah mana yang hendak dimassage atau manipulasi apa yang akan digunakan.\n
+    \t\t\tUrutan pelaksanaan massage dilakukan perbagian contoh daerah tungkai terbagi menjadi tungkai atas, bawah dan tapak kaki, maka tungkai kiri diselesaikan terlebih dahulu dimulai dari tungkai atas, lalu tungkai bawah kemudian tapak kaki dengan menggunakan seluruh manipulasi yang diperlukan, baru pindah ke tungkai kanan dengan urutan sama. Pada posisi telentang masseur selalu mulai mengerjakan bagian kanan tubuh pasien pada daerah tertentu sampai selesai, lalu pindah kebagian kiri, begitu seterusnya.\n
+    \t\t\tMasseur berdiri tegak dengan tubuh pasien terletak kira-kira setinggi pertengahan pahanya (tengah-tengah antara lutut dan pangkal paha) jika pasien menggunakan meja. Ketinggian ini kemungkinan masseur lebih leluasa dalam mengerakkan tangannya serta menggunakan berat badannya untuk membantu memberikan tekanan pada manipulasinya. Namun, jika pasien menggunakan matras atau yang lainnya posisi masseur menyesuaikan dengan berada dekat dengan bagian tubuh yang dipijat.</string>
+    <string name="arahgerakan">e. Arah Gerakan Massage</string>
+    <string name="arahgerakandesc">\t\t\tMassage olahraga menggunakan jantung sebagai pusatnya, sebab jantung adalah pusat dari peredaran darah. Tujuannya adalah untuk mempercepat aliran cairan limphe dan darah veneus atau darah venosa, yaitu darah yang banyak mengandung sisa-sisa pembakaran, berarti harus mendorong darah itu searah dengan aliran darah tersebut di dalam pembuluh vena. Semua pembuluh darah vena menuju ke jantung, di mana untuk vena-vena dibagian bawah jantung dibantu dengan kelep-kelep (valvula) yang akan mencegah darah turun kembali ke bawah.</string>
+    <string name="dosis">f.	Dosis dan Frequensi Massage</string>
+    <string name="dosisdesc">\t\t\tDosis atau takaran untuk massage sangatr bervariasi, tergantung dari kebutuhan dan kondisi para pasiennya. Massage untuk bagian-bagian tubuh tertentu, missal daerah tungkai atas (paha saja), dibutuhkan kira-kira waktu 10 menit. Sedangkan massage untuk seluruh tubuh dapat memakan waktu sampai dua jam. Pasien dalam kondisi kurang sehat sebaiknya mendapat massage lebih singkat.\n
+    \t\t\tFrequensi dalam memberikan massage juga bervariasi. Untuk olahragawan yang berlatih secara teratur, sebaiknya diberi massage satu atau dua kali seminggu untuk massage seluruh tubuh. Sedang massage untuk bagaian-bagian tubuh setiap kali dibutuhkan dapat diberikan. Beberapa pendapat menyebutkan jangka waktu dua hari sekali, bahkan ada yang menganjurkan setiap hari diberi massage. Sudah pasti hal itu harus dilihat pula bagaimana pengaruh massage itu terhadap tubuh, terutama pengaruh terhadap prestasinya.</string>
+    <string name="sumberhaldiperhatikan">Sumber. (Arif, Setiawan, 2015:10-15)</string>
+    <string name="note">Note:\n
+    \t\t\t\“Setiap teknik manipulasi dapat disesuaikan dengan kondisi otot yang ada pada tubuh. Komunikasikan setiap gerakan manipulasi kepada pasien untuk mengetahui tekanan sudah cukup atau kurang pada saat melakukan massage. Lakukan massage berdasarkan kebutuhan sesuai dengan tata cara diatas\”</string>
+
+
+    about
+    <string name="referensi">Referensi</string>
+    <string name="setiawan">Setiawan, Arif. (2015). Sport Massage. Yogyakarta: Magnum Pustaka Utama.</string>
+    <string name="darni">Darni. (2018). Buku Ajar Massage Olahraga. Depok: Rajawali Pers.</string>
+    <string name="wijanarko">Wijanarko, Bambang dan dkk. (2010). Massage Terapi Cedera Olahraga. Surakarta:  Yuma Pustaka.</string>
+    <string name="modul">Modul Penataran Sport Massage level 1 Nasional 2019</string>
+    <string name="giriwijoyo">Giriwijoyo, Santosa dan Sidiq, Dikdik Jafar. (2020). Ilmu Faal Olahraga. Bandung: PT Remaja Rosdakarya.</string>
+    <string name="sarwadi">Sarwadi dan Linangkung, Erfanto. (2014). Buku Pintar Anatomi Tubuh Manusia. Jakarta: Dunia Cerdas</string>
+    <string name="pengembang">Pengembang</string>
+    <string name="romli">Romli Silianwari</string>
+    <string name="masseur1">Masseur 1</string>
+    <string name="zulphan">Zulphan</string>
+    <string name="masseur2">Masseur 2</string>
+    <string name="gilang">Gilang Panji Satria</string>
+    <string name="kameramen">Kameramen</string>
+    <string name="fauzan">Fauzan Ilham</string>
+    <string name="pasien1">Pasien 1</string>
+    <string name="agil">Agil Alwiansyah</string>
+    <string name="pasien2">Pasien 2</string>
+
+
+    manipulasi anatomi depan
+    <string name="kepala_dan_dahi">Kepala dan Dahi</string>
+    <string name="lengan_atas_bawah">"Lengan Atas
+Bawah"</string>
+    <string name="punggung_tangan">"Punggung
+Tangan"</string>
+    <string name="telapak_dan_jari_tangan">"Telapak dan
+Jari-Jari Tangan"</string>
+    <string name="dada">Dada</string>
+    <string name="perut">Perut</string>
+    <string name="paha_depan">"Paha
+Depan"</string>
+    <string name="betis_depan">"Betis
+Depan"</string>
+    <string name="punggung_dan_jari_jari_kaki">"Punggung dan
+Jari-Jari Kaki"</string>
+
+    manipulasi anatomi belakang
+    <string name="bahu">Bahu</string>
+    <string name="pinggang_punggung">Pinggang-Punggung</string>
+    <string name="pantat">Pantat</string>
+    <string name="paha_belakang">"Paha
+Belakang"</string>
+    <string name="betis_belakang">"Betis
+Belakang"</string>
+    <string name="tumit_telapak_kaki">"Tumit-
+Telapak Kaki"</string>
+
+
+    manipulation
+    <string-array name="data_kepala_dan_dahi">
+        <item>Effleurage</item>
+        <item>Friction 1</item>
+        <item>Friction 2</item>
+        <item>Petrissage 1</item>
+        <item>Petrissage 2</item>
+        <item>Tapotement</item>
     </string-array>
 
-    <array name="data_photo_massage_head">
-        <item>@drawable/poster_bumblebee</item>
-        <item>@drawable/poster_creed</item>
-        <item>@drawable/poster_deadpool</item>
-        <item>@drawable/poster_dragon</item>
-        <item>@drawable/poster_dragonball</item>
-        <item>@drawable/poster_glass</item>
-        <item>@drawable/poster_hunterkiller</item>
-        <item>@drawable/poster_marrypopins</item>
-        <item>@drawable/poster_mortalengine</item>
-        <item>@drawable/poster_preman</item>
-        <item>@drawable/poster_robinhood</item>
-        <item>@drawable/poster_spiderman</item>
-        <item>@drawable/poster_thegirl</item>
-        <item>@drawable/poster_themule</item>
-        <item>@drawable/poster_venom</item>
+    <array name="data_photo_kepala_dan_dahi">
+        <item>@drawable/foto_kepala_dan_dahi_effleurage</item>
+        <item>@drawable/foto_kepala_dan_dahi_friction_1</item>
+        <item>@drawable/foto_kepala_dan_dahi_friction_2</item>
+        <item>@drawable/foto_kepala_dan_dahi_petrisage_1</item>
+        <item>@drawable/foto_kepala_dan_dahi_petrisage_2</item>
+        <item>@drawable/foto_kepala_dan_dahi_tapotement</item>
     </array>
 
-    <array name="data_video_massage_head">
-        <item>@raw/bumblebee</item>
-        <item>R.raw.poster_creed</item>
-        <item>@drawable/poster_deadpool</item>
-        <item>@drawable/poster_dragon</item>
-        <item>@drawable/poster_dragonball</item>
-        <item>@drawable/poster_glass</item>
-        <item>@drawable/poster_hunterkiller</item>
-        <item>@drawable/poster_marrypopins</item>
-        <item>@drawable/poster_mortalengine</item>
-        <item>@drawable/poster_preman</item>
-        <item>@drawable/poster_robinhood</item>
-        <item>@raw/spiderman_into_the_spider_verse</item>
-        <item>@drawable/poster_thegirl</item>
-        <item>@drawable/poster_themule</item>
-        <item>@drawable/poster_venom</item>
+    <array name="data_video_kepala_dan_dahi">
+        <item>@raw/video_kepala_dan_dahi_effleurage</item>
+        <item>@raw/video_kepala_dan_dahi_friction_1</item>
+        <item>@raw/video_kepala_dan_dahi_friction_2</item>
+        <item>@raw/video_kepala_dan_dahi_petrisage_1</item>
+        <item>@raw/video_kepala_dan_dahi_petrisage_2</item>
+        <item>@raw/video_kepala_dan_dahi_tapotement</item>
     </array>
 
-    <string-array name="data_description_massage_head">
-        <item>During a run in 1987, Bumblebee found shelter in a junkyard in a small California coastal town. Charlie, the girl who was touching the age of 18 and was looking for identity, found Bumblebee, who was scratched and damaged a lot. While trying to make it work again, Charlie saw for himself that this was not an ordinary yellow VW frog.</item>
-        <item>Creed II will continue the story of Adonis Johnson inside and outside the ring as he faces fame, family problems and an ongoing mission to become a true champion.</item>
-        <item>Wade Wilson (Ryan Reynolds) tries to protect a mysterious mutant targeted by Cable (Josh Brolin). To protect it, Wade then formed a team called X-Force that consisted of Deadpool himself, Domino, Negasonic Teenage Warhead, Colossus, and Bedlam.</item>
-        <item>In this third film, the story will be about Hiccup (Jay Baruchel) who is trying to fulfill his dream of creating a dream land for Vikings and dragons.</item>
-        <item>This is a new story from the Saiyan Nation. Earth is peaceful after the Power Tournament. Realizing that the universe still has many stronger people to find, Goku spent all his days practicing to achieve even better fighting skills. Then one day, Goku and Vegeta were confronted by another Saiyan named Broly whom they had never seen before.</item>
-        <item>Film Glass will continue the search for Kevin Wendell Crumb who escaped after kidnapping the girls. Kevin Wendel Crumbang has 20 personalities in one soul and can turn into a monster when his personality named The Beast appears.</item>
-        <item>Hunter Killer will tell the story of the mission of the United States submarine team to rescue the Russian president who was coup by a militant group in his country.</item>
-        <item>In this latest sequel, formed with a modern taste but still with the touches of his original classic film, Mary Poppins has returned to help the next generation of the Banks family, so that the new generation of children can again find the beauty of life after they experience a tragic loss.</item>
-        <item>Mortal Engines tells the state of the world after the apocalypse. Tom is a twenty-year-old Londoner who only lived in his hometown, and his feet never touched grass, mud or soil.</item>
-        <item>After three years, the Muslihat kecimpring business, which had retired as a thug, was having problems. Sales began to decline. Muslihat also faced a new problem when Safira, her only daughter, had grown into a teenager and began to be visited by men. A bigger problem then arises, when there is a problem between his former subordinates.</item>
-        <item>Robin Hood (Taron Egerton) as a crusader returned to his country under different circumstances. He found corrupt officials and spent royal money while the people were miserable. Together with Little John (Jamie Foxx), he fought a very strong British tyranny.</item>
-        <item>Spider-Man crosses parallel dimensions and collaborates with Spider-Men from these dimensions to stop threats to all reality.</item>
-        <item>The Girl in the Spiders Web will revolve around a young computer hacker Lisbeth Salander (Claire Foy) and journalist Mikael Blomkvist (Sverrir Gudnason) finding themselves trapped in spy networks, cybercriminals and corrupt government officials.</item>
-        <item>A 90-year-old horticultural expert and Korean War veteran was caught transporting $ 3 million worth of cocaine through Illinois for Mexican drug cartels.</item>
-        <item>A journalist, Eddie Brock (Tom Hardy) wants to make an investment case for the discovery led by Dr. Carlton Drake (Riz Ahmed). Because of his investigation, Eddie visited Dr.s lab Calrlton Drake. Everything is intended to prove that Dr. Carlton Drake is doing an evil act using Symbiote.</item>
+    <string-array name="data_description_kepala_dan_dahi">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        friction
+        <item>
+            Maksud : Menghancurkan bekuan-bekuan dan pengerasan- pengerasan didalam jaringan ikat dan otot.\n
+            Tujuan : Menormalkan sirkulasi (peredaran) darah dan pertukaran zat.\n
+            Pengaruh fisiologis : Melancarkan aliran darah dan pembesaran serabut otot.\n
+            \t\t\tMenurut Darni, (2018:42) Friction adalah “gerakan menggerus yang dilakukan dengan ujung-ujung jari, baik satu, dua, tiga dan empat jari”. Friction merupakan massage yang gerakannya spiral dengan menekankan ujung-ujung jari dan diputar-putarkan berurutan sambil jalan atau ditempat. Teknik ini sering digunakan pada otot-otot yang terdapat pada punggung, tungkai maupun lengan dan lain-lain. Digunakan untuk menghancurkan kekakuan-kekakuan otot, ujung-ujung otot dan pada persendian.
+        </item>
+        friction
+        <item>
+            Maksud : Menghancurkan bekuan-bekuan dan pengerasan- pengerasan didalam jaringan ikat dan otot.\n
+            Tujuan : Menormalkan sirkulasi (peredaran) darah dan pertukaran zat.\n
+            Pengaruh fisiologis   : Melancarkan aliran darah dan pembesaran serabut otot.\n
+            \t\t\tMenurut Darni, (2018:42) Friction adalah “gerakan menggerus yang dilakukan dengan ujung-ujung jari, baik satu, dua, tiga dan empat jari”. Friction merupakan massage yang gerakannya spiral dengan menekankan ujung-ujung jari dan diputar-putarkan berurutan sambil jalan atau ditempat. Teknik ini sering digunakan pada otot-otot yang terdapat pada punggung, tungkai maupun lengan dan lain-lain. Digunakan untuk menghancurkan kekakuan-kekakuan otot, ujung-ujung otot dan pada persendian.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        tapotement
+        <item>
+            Maksud : Mempunyai tonus otot syaraf vegetatior (tak sadar) pada jaringan  perifeer (tepi).\n
+            Tujuan : Mempertinggi tonus otot dan mempergiat peredaran darah pada kulit.\n
+            Pengaruh fisiologis : Menimbulkan kontraksi otot (idiomuskuler) untuk pertukaran zat dalam tubuh.\n
+            \t\t\tMenurut Darni, (2018:53) Tapotement adalah “serangkaian gerakan yang berbentuk tamparan atau pukulan yang lunak pada permukaan tubuh yang berotot melalui bagian tangan tertentu dengan beruruan dan berirama”. Tapotement merupakan gerakan pukulan ringan dan berirama dengan jari-jari tangan, telapak tangan atau kepalan tangan yang biasanya dilakukan dengan kedua tangan bergantian. Dalam tapotement terdapat beberapa jenis manipulasi diantaranya: Clapping (tangan ditekuk sepeerti mangkuk), Pounding (tangan dikepalkan), Hacking (sisi telapak tangan), dan Beathing (sisi telapak tangan perkenaan ujung jari), Digiting/ Typing (ujung-ujung jari), Cupping (biasa dilakukan dikepala). Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, pantat, paha dan lain-lain.
+        </item>
     </string-array>
+
+    <string-array name="data_dada">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Friction</item>
+        <item>Vibration</item>
+        <item>Walken 1</item>
+        <item>Walken 2</item>
+    </string-array>
+
+    <array name="data_photo_dada">
+        <item>@drawable/foto_dada_effleurage_1</item>
+        <item>@drawable/foto_dada_effleurage_2</item>
+        <item>@drawable/foto_dada_friction</item>
+        <item>@drawable/foto_dada_vibration</item>
+        <item>@drawable/foto_dada_walken_1</item>
+        <item>@drawable/foto_dada_walken_2</item>
+    </array>
+
+    <array name="data_video_dada">
+        <item>@raw/video_dada_effleurage_1</item>
+        <item>@raw/video_dada_effleurage_2</item>
+        <item>@raw/video_dada_friction</item>
+        <item>@raw/video_dada_vibration</item>
+        <item>@raw/video_dada_walken_1</item>
+        <item>@raw/video_dada_walken_2</item>
+    </array>
+
+    <string-array name="data_description_dada">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        friction
+        <item>
+            Maksud : Menghancurkan bekuan-bekuan dan pengerasan- pengerasan didalam jaringan ikat dan otot.\n
+            Tujuan : Menormalkan sirkulasi (peredaran) darah dan pertukaran zat.\n
+            Pengaruh fisiologis : Melancarkan aliran darah dan pembesaran serabut otot.\n
+            \t\t\tMenurut Darni, (2018:42) Friction adalah “gerakan menggerus yang dilakukan dengan ujung-ujung jari, baik satu, dua, tiga dan empat jari”. Friction merupakan massage yang gerakannya spiral dengan menekankan ujung-ujung jari dan diputar-putarkan berurutan sambil jalan atau ditempat. Teknik ini sering digunakan pada otot-otot yang terdapat pada punggung, tungkai maupun lengan dan lain-lain. Digunakan untuk menghancurkan kekakuan-kekakuan otot, ujung-ujung otot dan pada persendian.
+        </item>
+        vibration
+        <item>
+            Maksud : Dengan halus merangsang syaraf vegatatief pada alat-alat dalam melalui luar.\n
+            Tujuan : Untuk mempengaruhi alat-alat yang penting.\n
+            Pengaruh fisiologis : Merangsang syaraf vegetatif (tidak sadar) melalui aksi pada bagian luar.\n
+            \t\t\tMenurut Darni, (2018:57) Vibration adalah “manipulasi yang dilakukan untuk menggetarkan secara melingkar dengan halus terhadap jaringan serta berpindah tempat”. Vibration merupakan teknik massage yang hampir sama dengan dengan shaking. Perbedaannya terletak pada tujuan dan tekanan yang diberikan, biasanya vibration ditekankan pada tempat yang dikehendaki kemudian kejangkan/ digetarkan seluruh lengan tersebut. Getaran pada otot berfokus pada satu titik yang dapat dilakukan dengan ujung satu jari, dua jari, tiga jari, maupun semua jari dirapatkan. Teknik ini dapat diberikan pada tempat- tempat yang sensitif (peka) misalnyanya dibawah lekuku kepala, sekelilig persendian, disudut luar scapula dan sebagainya. Namun, dapat juga digabungkan dengan permberian shaking pada otot-otot yang tegang
+        </item>
+        walken
+        <item>
+            Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+            Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+        </item>
+        walken
+        <item>
+            Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+            Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+        </item>
+    </string-array>
+
+    <string-array name="data_perut">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Vibration</item>
+        <item>Walken</item>
+    </string-array>
+
+    <array name="data_photo_perut">
+        <item>@drawable/foto_perut_effleurage_1</item>
+        <item>@drawable/foto_perut_effleurage_2</item>
+        <item>@drawable/foto_perut_vibration</item>
+        <item>@drawable/foto_perut_walken</item>
+    </array>
+
+    <array name="data_video_perut">
+        <item>@raw/video_perut_effleurage_1</item>
+        <item>@raw/video_perut_effleurage_2</item>
+        <item>@raw/video_perut_vibration</item>
+        <item>@raw/video_perut_walken</item>
+    </array>
+
+    <string-array name="data_description_perut">
+        effleurage
+        <item>
+        Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+        Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+        Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+        \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+    </item>
+        effleurage
+        <item>
+        Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+        Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+        Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+        \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+    </item>
+        vibration
+        <item>
+        Maksud : Dengan halus merangsang syaraf vegatatief pada alat-alat dalam melalui luar.\n
+        Tujuan : Untuk mempengaruhi alat-alat yang penting.\n
+        Pengaruh fisiologis : Merangsang syaraf vegetatif (tidak sadar) melalui aksi pada bagian luar.\n
+        \t\t\tMenurut Darni, (2018:57) Vibration adalah “manipulasi yang dilakukan untuk menggetarkan secara melingkar dengan halus terhadap jaringan serta berpindah tempat”. Vibration merupakan teknik massage yang hampir sama dengan dengan shaking. Perbedaannya terletak pada tujuan dan tekanan yang diberikan, biasanya vibration ditekankan pada tempat yang dikehendaki kemudian kejangkan/ digetarkan seluruh lengan tersebut. Getaran pada otot berfokus pada satu titik yang dapat dilakukan dengan ujung satu jari, dua jari, tiga jari, maupun semua jari dirapatkan. Teknik ini dapat diberikan pada tempat- tempat yang sensitif (peka) misalnyanya dibawah lekuku kepala, sekelilig persendian, disudut luar scapula dan sebagainya. Namun, dapat juga digabungkan dengan permberian shaking pada otot-otot yang tegang
+    </item>
+        walken
+        <item>
+        Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+        Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+        \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+    </item>
+    </string-array>
+
+    <string-array name="data_lengan_atas_bawah">
+        <item>Effleurage</item>
+        <item>Petrissage 1</item>
+        <item>Petrissage 2</item>
+        <item>Petrissage 3</item>
+        <item>Petrissage (MuscleSqueezing)</item>
+        <item>Shaking</item>
+    </string-array>
+
+    <array name="data_photo_lengan_atas_bawah">
+        <item>@drawable/foto_lengan_atas_bawah_effleurage</item>
+        <item>@drawable/foto_lengan_atas_bawah_petrisage_1</item>
+        <item>@drawable/foto_lengan_atas_bawah_petrisage_2</item>
+        <item>@drawable/foto_lengan_atas_bawah_petrisage_3</item>
+        <item>@drawable/foto_lengan_atas_bawah_petrisage_musclesqueezing</item>
+        <item>@drawable/foto_lengan_atas_bawah_shaking</item>
+    </array>
+
+    <array name="data_video_lengan_atas_bawah">
+        <item>@raw/video_lengan_atas_bawah_effleurage</item>
+        <item>@raw/video_lengan_atas_bawah_petrisage_1</item>
+        <item>@raw/video_lengan_atas_bawah_petrisage_2</item>
+        <item>@raw/video_lengan_atas_bawah_petrisage_3</item>
+        <item>@raw/video_lengan_atas_bawah_petrisage_musclesqueezing</item>
+        <item>@raw/video_lengan_atas_bawah_shaking</item>
+    </array>
+
+    <string-array name="data_description_lengan_atas_bawah">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+    </string-array>
+
+    <string-array name="data_punggung_tangan">
+        <item>Effleurage</item>
+        <item>Petrissage</item>
+    </string-array>
+
+    <array name="data_photo_punggung_tangan">
+        <item>@drawable/foto_punggung_tangan_effleurage</item>
+        <item>@drawable/foto_punggung_tangan_petrisage</item>
+    </array>
+
+    <array name="data_video_punggung_tangan">
+        <item>@raw/video_punggung_tangan_effleurage</item>
+        <item>@raw/video_punggung_tangan_petrisage</item>
+    </array>
+
+    <string-array name="data_description_punggung_tangan">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+    </string-array>
+
+    <string-array name="data_telapak_jari_tangan">
+        <item>Effleurage</item>
+        <item>Petrissage</item>
+    </string-array>
+
+    <array name="data_photo_telapak_jari_tangan">
+        <item>@drawable/foto_telapak_jari_tangan_effleurage</item>
+        <item>@drawable/foto_telapak_jari_tangan_petrisage</item>
+    </array>
+
+    <array name="data_video_telapak_jari_tangan">
+        <item>@raw/video_telapak_jari_tangan_effleurage</item>
+        <item>@raw/video_telapak_jari_tangan_petrisage</item>
+    </array>
+
+    <string-array name="data_description_telapak_jari_tangan">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+    </string-array>
+
+    <string-array name="data_paha_depan">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Effleurage 3</item>
+        <item>Effleurage 4</item>
+        <item>Effleurage 5</item>
+        <item>Petrissage</item>
+        <item>Petrissage Musclesqueezing</item>
+        <item>Petrissage Pickingup</item>
+        <item>Petrissage Wringling</item>
+        <item>Shaking</item>
+        <item>Walken</item>
+    </string-array>
+
+    <array name="data_photo_paha_depan">
+        <item>@drawable/foto_paha_depan_effleurage_1</item>
+        <item>@drawable/foto_paha_depan_effleurage_2</item>
+        <item>@drawable/foto_paha_depan_effleurage_3</item>
+        <item>@drawable/foto_paha_depan_effleurage_4</item>
+        <item>@drawable/foto_paha_depan_effleurage_5</item>
+        <item>@drawable/foto_paha_depan_petrisage</item>
+        <item>@drawable/foto_paha_depan_petrissage_musclesqueezing</item>
+        <item>@drawable/foto_paha_depan_petrissage_pikingup</item>
+        <item>@drawable/foto_paha_depan_petrissage_wringing</item>
+        <item>@drawable/foto_paha_depan_shaking</item>
+        <item>@drawable/foto_paha_depan_walken</item>
+    </array>
+
+    <array name="data_video_paha_depan">
+        <item>@raw/video_paha_depan_effleurage_1</item>
+        <item>@raw/video_paha_depan_effleurage_2</item>
+        <item>@raw/video_paha_depan_effleurage_3</item>
+        <item>@raw/video_paha_depan_effleurage_4</item>
+        <item>@raw/video_paha_depan_effleurage_5</item>
+        <item>@raw/video_paha_depan_petrissage</item>
+        <item>@raw/video_paha_depan_petrissage_musclesqueezing</item>
+        <item>@raw/video_paha_depan_petrissage_pikingup</item>
+        <item>@raw/video_paha_depan_petrissage_wringing</item>
+        <item>@raw/video_paha_depan_shaking</item>
+        <item>@raw/video_paha_depan_walken</item>
+    </array>
+
+    <string-array name="data_description_paha_depan">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        walken
+        <item>
+            Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+            Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+        </item>
+    </string-array>
+
+    <string-array name="data_betis_depan">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Effleurage 3</item>
+        <item>Petrissage 1</item>
+        <item>Petrissage 2</item>
+        <item>Shaking</item>
+    </string-array>
+
+    <array name="data_photo_betis_depan">
+        <item>@drawable/foto_betis_depan_effleurage_1</item>
+        <item>@drawable/foto_betis_depan_effleurage_2</item>
+        <item>@drawable/foto_betis_depan_effleurage_3</item>
+        <item>@drawable/foto_betis_depan_petrisage_1</item>
+        <item>@drawable/foto_betis_depan_petrisage_2</item>
+        <item>@drawable/foto_betis_depan_shaking</item>
+    </array>
+
+    <array name="data_video_betis_depan">
+        <item>@raw/video_betis_depan_effleurage_1</item>
+        <item>@raw/video_betis_depan_effleurage_2</item>
+        <item>@raw/video_betis_depan_effleurage_3</item>
+        <item>@raw/video_betis_depan_petrisage_1</item>
+        <item>@raw/video_betis_depan_petrisage_2</item>
+        <item>@raw/video_betis_depan_shaking</item>
+    </array>
+
+    <string-array name="data_description_betis_depan">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+    </string-array>
+
+    <string-array name="data_punggung_jari_kaki">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Effleurage 3</item>
+        <item>Petrissage 1</item>
+        <item>Petrissage 2</item>
+    </string-array>
+
+    <array name="data_photo_punggung_jari_kaki">
+        <item>@drawable/foto_punggung_jari_kaki_effleurage_1</item>
+        <item>@drawable/foto_punggung_jari_kaki_effleurage_2</item>
+        <item>@drawable/foto_punggung_jari_kaki_effleurage_3</item>
+        <item>@drawable/foto_punggung_jari_kaki_petrisage_1</item>
+        <item>@drawable/foto_punggung_jari_kaki_petrisage_2</item>
+    </array>
+
+    <array name="data_video_punggung_jari_kaki">
+        <item>@raw/video_punggung_jari_kaki_effleurage_1</item>
+        <item>@raw/video_punggung_jari_kaki_effleurage_2</item>
+        <item>@raw/video_punggung_jari_kaki_effleurage_3</item>
+        <item>@raw/video_punggung_jari_kaki_petrisage_1</item>
+        <item>@raw/video_punggung_jari_kaki_petrisage_2</item>
+    </array>
+
+    <string-array name="data_description_punggung_jari_kaki">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+    </string-array>
+
+    <string-array name="data_bahu">
+        <item>Effleurage</item>
+        <item>Petrissage 1</item>
+        <item>Petrissage 2</item>
+        <item>Shaking 1</item>
+        <item>Shaking 2</item>
+    </string-array>
+
+    <array name="data_photo_bahu">
+        <item>@drawable/foto_bahu_effleurage</item>
+        <item>@drawable/foto_bahu_petrissage_1</item>
+        <item>@drawable/foto_bahu_petrissage_2</item>
+        <item>@drawable/foto_bahu_shaking_1</item>
+        <item>@drawable/foto_bahu_shaking_2</item>
+    </array>
+
+    <array name="data_video_bahu">
+        <item>@raw/video_bahu_effleurage</item>
+        <item>@raw/video_bahu_petrissage_1</item>
+        <item>@raw/video_bahu_petrissage_2</item>
+        <item>@raw/video_bahu_shaking_1</item>
+        <item>@raw/video_bahu_shaking_2</item>
+    </array>
+
+    <string-array name="data_description_bahu">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+    </string-array>
+
+    <string-array name="data_punggung_pinggang">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Effleurage 3</item>
+        <item>Friction 1</item>
+        <item>Friction 2</item>
+        <item>Skin Rolling</item>
+        <item>Tapotement Beathing</item>
+        <item>Tapotement Clapping</item>
+        <item>Tapotement Hacking</item>
+        <item>Tapotement Pounding</item>
+        <item>Vibration</item>
+        <item>Walken</item>
+    </string-array>
+
+    <array name="data_photo_punggung_pinggang">
+        <item>@drawable/foto_punggung_pinggang_effleurage_1</item>
+        <item>@drawable/foto_punggung_pinggang_effleurage_2</item>
+        <item>@drawable/foto_punggung_pinggang_effleurage_3</item>
+        <item>@drawable/foto_punggung_pinggang_friction_1</item>
+        <item>@drawable/foto_punggung_pinggang_friction_2</item>
+        <item>@drawable/foto_punggung_pinggang_skin_rolling</item>
+        <item>@drawable/foto_punggung_pinggang_tapotement_beathing</item>
+        <item>@drawable/foto_punggung_pinggang_tapotement_clapping</item>
+        <item>@drawable/foto_punggung_pinggang_tapotement_hacking</item>
+        <item>@drawable/foto_punggung_pinggang_tapotement_pounding</item>
+        <item>@drawable/foto_punggung_pinggang_vibration</item>
+        <item>@drawable/foto_punggung_pinggang_walken</item>
+    </array>
+
+    <array name="data_video_punggung_pinggang">
+        <item>@raw/video_punggung_pinggang_effleurage_1</item>
+        <item>@raw/video_punggung_pinggang_effleurage_2</item>
+        <item>@raw/video_punggung_pinggang_effleurage_3</item>
+        <item>@raw/video_punggung_pinggang_friction_1</item>
+        <item>@raw/video_punggung_pinggang_friction_2</item>
+        <item>@raw/video_punggung_pinggang_skin_rolling</item>
+        <item>@raw/video_punggung_pinggang_tapotement_beathing</item>
+        <item>@raw/video_punggung_pinggang_tapotement_clapping</item>
+        <item>@raw/video_punggung_pinggang_tapotement_hacking</item>
+        <item>@raw/video_punggung_pinggang_tapotement_pounding</item>
+        <item>@raw/video_punggung_pinggang_vibration</item>
+        <item>@raw/video_punggung_pinggang_walken</item>
+    </array>
+
+    <string-array name="data_description_punggung_pinggang">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        friction
+        <item>
+            Maksud : Menghancurkan bekuan-bekuan dan pengerasan- pengerasan didalam jaringan ikat dan otot.\n
+            Tujuan : Menormalkan sirkulasi (peredaran) darah dan pertukaran zat.\n
+            Pengaruh fisiologis : Melancarkan aliran darah dan pembesaran serabut otot.\n
+            \t\t\tMenurut Darni, (2018:42) Friction adalah “gerakan menggerus yang dilakukan dengan ujung-ujung jari, baik satu, dua, tiga dan empat jari”. Friction merupakan massage yang gerakannya spiral dengan menekankan ujung-ujung jari dan diputar-putarkan berurutan sambil jalan atau ditempat. Teknik ini sering digunakan pada otot-otot yang terdapat pada punggung, tungkai maupun lengan dan lain-lain. Digunakan untuk menghancurkan kekakuan-kekakuan otot, ujung-ujung otot dan pada persendian.
+        </item>
+        friction
+        <item>
+            Maksud : Menghancurkan bekuan-bekuan dan pengerasan- pengerasan didalam jaringan ikat dan otot.\n
+            Tujuan : Menormalkan sirkulasi (peredaran) darah dan pertukaran zat.\n
+            Pengaruh fisiologis : Melancarkan aliran darah dan pembesaran serabut otot.\n
+            \t\t\tMenurut Darni, (2018:42) Friction adalah “gerakan menggerus yang dilakukan dengan ujung-ujung jari, baik satu, dua, tiga dan empat jari”. Friction merupakan massage yang gerakannya spiral dengan menekankan ujung-ujung jari dan diputar-putarkan berurutan sambil jalan atau ditempat. Teknik ini sering digunakan pada otot-otot yang terdapat pada punggung, tungkai maupun lengan dan lain-lain. Digunakan untuk menghancurkan kekakuan-kekakuan otot, ujung-ujung otot dan pada persendian.
+        </item>
+        skinrolling
+        <item>
+            Maksud : Melepaskan kulit dari jaringan ikat, Melebarkan pembuluh darah kapillair.\n
+            Tujuan : Mempertinggi tunas dan memperbaiki pertukaran zat serta peredaran darah dibawah kulit.\n
+            Pengaruh fisiologis : Melebarkan pembuluh kapiler di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Skin rolling adalah “teknik massage yang dilakukan dengan cara mengambil/ mencubit kelompok kulit kemudian ibu jari mendorong ke atas, jari-jari yang lain mengikuti dan bergantian memegang kelompok kulit di atasnya, sehingga gerakan menggelinding”. Skin rolling merupakan teknik massage yang dapat dilakukan dengan satu tangan atau dua tangan, gerakannya seperti mencubit kulit dengan ibu jari ditekan kemudian jari-jari yang lain berjalan ke depan mengikuti otot-otot pada tubuh. Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, paha dan lain-lain.
+        </item>
+        tapotement
+        <item>
+            Maksud : Mempunyai tonus otot syaraf vegetatior (tak sadar) pada jaringan  perifeer (tepi).\n
+            Tujuan : Mempertinggi tonus otot dan mempergiat peredaran darah pada kulit.\n
+            Pengaruh fisiologis : Menimbulkan kontraksi otot (idiomuskuler) untuk pertukaran zat dalam tubuh.\n
+            \t\t\tMenurut Darni, (2018:53) Tapotement adalah “serangkaian gerakan yang berbentuk tamparan atau pukulan yang lunak pada permukaan tubuh yang berotot melalui bagian tangan tertentu dengan beruruan dan berirama”. Tapotement merupakan gerakan pukulan ringan dan berirama dengan jari-jari tangan, telapak tangan atau kepalan tangan yang biasanya dilakukan dengan kedua tangan bergantian. Dalam tapotement terdapat beberapa jenis manipulasi diantaranya: Clapping (tangan ditekuk sepeerti mangkuk), Pounding (tangan dikepalkan), Hacking (sisi telapak tangan), dan Beathing (sisi telapak tangan perkenaan ujung jari), Digiting/ Typing (ujung-ujung jari), Cupping (biasa dilakukan dikepala). Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, pantat, paha dan lain-lain.
+        </item>
+        tapotement
+        <item>
+            Maksud : Mempunyai tonus otot syaraf vegetatior (tak sadar) pada jaringan  perifeer (tepi).\n
+            Tujuan : Mempertinggi tonus otot dan mempergiat peredaran darah pada kulit.\n
+            Pengaruh fisiologis : Menimbulkan kontraksi otot (idiomuskuler) untuk pertukaran zat dalam tubuh.\n
+            \t\t\tMenurut Darni, (2018:53) Tapotement adalah “serangkaian gerakan yang berbentuk tamparan atau pukulan yang lunak pada permukaan tubuh yang berotot melalui bagian tangan tertentu dengan beruruan dan berirama”. Tapotement merupakan gerakan pukulan ringan dan berirama dengan jari-jari tangan, telapak tangan atau kepalan tangan yang biasanya dilakukan dengan kedua tangan bergantian. Dalam tapotement terdapat beberapa jenis manipulasi diantaranya: Clapping (tangan ditekuk sepeerti mangkuk), Pounding (tangan dikepalkan), Hacking (sisi telapak tangan), dan Beathing (sisi telapak tangan perkenaan ujung jari), Digiting/ Typing (ujung-ujung jari), Cupping (biasa dilakukan dikepala). Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, pantat, paha dan lain-lain.
+        </item>
+        tapotement
+        <item>
+            Maksud : Mempunyai tonus otot syaraf vegetatior (tak sadar) pada jaringan  perifeer (tepi).\n
+            Tujuan : Mempertinggi tonus otot dan mempergiat peredaran darah pada kulit.\n
+            Pengaruh fisiologis : Menimbulkan kontraksi otot (idiomuskuler) untuk pertukaran zat dalam tubuh.\n
+            \t\t\tMenurut Darni, (2018:53) Tapotement adalah “serangkaian gerakan yang berbentuk tamparan atau pukulan yang lunak pada permukaan tubuh yang berotot melalui bagian tangan tertentu dengan beruruan dan berirama”. Tapotement merupakan gerakan pukulan ringan dan berirama dengan jari-jari tangan, telapak tangan atau kepalan tangan yang biasanya dilakukan dengan kedua tangan bergantian. Dalam tapotement terdapat beberapa jenis manipulasi diantaranya: Clapping (tangan ditekuk sepeerti mangkuk), Pounding (tangan dikepalkan), Hacking (sisi telapak tangan), dan Beathing (sisi telapak tangan perkenaan ujung jari), Digiting/ Typing (ujung-ujung jari), Cupping (biasa dilakukan dikepala). Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, pantat, paha dan lain-lain.
+        </item>
+        tapotement
+        <item>
+            Maksud : Mempunyai tonus otot syaraf vegetatior (tak sadar) pada jaringan  perifeer (tepi).\n
+            Tujuan : Mempertinggi tonus otot dan mempergiat peredaran darah pada kulit.\n
+            Pengaruh fisiologis : Menimbulkan kontraksi otot (idiomuskuler) untuk pertukaran zat dalam tubuh.\n
+            \t\t\tMenurut Darni, (2018:53) Tapotement adalah “serangkaian gerakan yang berbentuk tamparan atau pukulan yang lunak pada permukaan tubuh yang berotot melalui bagian tangan tertentu dengan beruruan dan berirama”. Tapotement merupakan gerakan pukulan ringan dan berirama dengan jari-jari tangan, telapak tangan atau kepalan tangan yang biasanya dilakukan dengan kedua tangan bergantian. Dalam tapotement terdapat beberapa jenis manipulasi diantaranya: Clapping (tangan ditekuk sepeerti mangkuk), Pounding (tangan dikepalkan), Hacking (sisi telapak tangan), dan Beathing (sisi telapak tangan perkenaan ujung jari), Digiting/ Typing (ujung-ujung jari), Cupping (biasa dilakukan dikepala). Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, pantat, paha dan lain-lain.
+        </item>
+        vibration
+        <item>
+            Maksud : Dengan halus merangsang syaraf vegatatief pada alat-alat dalam melalui luar.\n
+            Tujuan : Untuk mempengaruhi alat-alat yang penting.\n
+            Pengaruh fisiologis : Merangsang syaraf vegetatif (tidak sadar) melalui aksi pada bagian luar.\n
+            \t\t\tMenurut Darni, (2018:57) Vibration adalah “manipulasi yang dilakukan untuk menggetarkan secara melingkar dengan halus terhadap jaringan serta berpindah tempat”. Vibration merupakan teknik massage yang hampir sama dengan dengan shaking. Perbedaannya terletak pada tujuan dan tekanan yang diberikan, biasanya vibration ditekankan pada tempat yang dikehendaki kemudian kejangkan/ digetarkan seluruh lengan tersebut. Getaran pada otot berfokus pada satu titik yang dapat dilakukan dengan ujung satu jari, dua jari, tiga jari, maupun semua jari dirapatkan. Teknik ini dapat diberikan pada tempat- tempat yang sensitif (peka) misalnyanya dibawah lekuku kepala, sekelilig persendian, disudut luar scapula dan sebagainya. Namun, dapat juga digabungkan dengan permberian shaking pada otot-otot yang tegang
+        </item>
+        walken
+        <item>
+            Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+            Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+        </item>
+    </string-array>
+
+    <string-array name="data_pantat">
+        <item>Effleurage</item>
+        <item>Petrissage</item>
+        <item>Shaking</item>
+        <item>Tapotement Pounding</item>
+        <item>Walken</item>
+    </string-array>
+
+    <array name="data_photo_pantat">
+        <item>@drawable/foto_pantat_effleurage</item>
+        <item>@drawable/foto_pantat_petrisage</item>
+        <item>@drawable/foto_pantat_shaking</item>
+        <item>@drawable/foto_pantat_tapotement_pounding</item>
+        <item>@drawable/foto_pantat_walken</item>
+    </array>
+
+    <array name="data_video_pantat">
+        <item>@raw/video_pantat_effleurage</item>
+        <item>@raw/video_pantat_petrisage</item>
+        <item>@raw/video_pantat_shaking</item>
+        <item>@raw/video_pantat_tapotement_pounding</item>
+        <item>@raw/video_pantat_walken</item>
+    </array>
+
+
+    <string-array name="data_description_pantat">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        tapotement
+        <item>
+            Maksud : Mempunyai tonus otot syaraf vegetatior (tak sadar) pada jaringan  perifeer (tepi).\n
+            Tujuan : Mempertinggi tonus otot dan mempergiat peredaran darah pada kulit.\n
+            Pengaruh fisiologis : Menimbulkan kontraksi otot (idiomuskuler) untuk pertukaran zat dalam tubuh.\n
+            \t\t\tMenurut Darni, (2018:53) Tapotement adalah “serangkaian gerakan yang berbentuk tamparan atau pukulan yang lunak pada permukaan tubuh yang berotot melalui bagian tangan tertentu dengan beruruan dan berirama”. Tapotement merupakan gerakan pukulan ringan dan berirama dengan jari-jari tangan, telapak tangan atau kepalan tangan yang biasanya dilakukan dengan kedua tangan bergantian. Dalam tapotement terdapat beberapa jenis manipulasi diantaranya: Clapping (tangan ditekuk sepeerti mangkuk), Pounding (tangan dikepalkan), Hacking (sisi telapak tangan), dan Beathing (sisi telapak tangan perkenaan ujung jari), Digiting/ Typing (ujung-ujung jari), Cupping (biasa dilakukan dikepala). Teknik ini sering digunakan pada otot-otot yang lebar seperti pada bagian puggung, pantat, paha dan lain-lain.
+        </item>
+        walken
+        <item>
+            Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+            Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+        </item>
+    </string-array>
+
+    <string-array name="data_paha_belakang">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Effleurage 3</item>
+        <item>Effleurage 4</item>
+        <item>Effleurage 5</item>
+        <item>Petrissage</item>
+        <item>Petrissage Kneading</item>
+        <item>Petrissage Musclesqueezing</item>
+        <item>Petrissage Pikingup</item>
+        <item>Petrissage Wringing</item>
+        <item>Shaking</item>
+        <item>Walken</item>
+    </string-array>
+
+    <array name="data_photo_paha_belakang">
+        <item>@drawable/foto_paha_belakang_effleurage_1</item>
+        <item>@drawable/foto_paha_belakang_effleurage_2</item>
+        <item>@drawable/foto_paha_belakang_effleurage_3</item>
+        <item>@drawable/foto_paha_belakang_effleurage_4</item>
+        <item>@drawable/foto_paha_belakang_effleurage_5</item>
+        <item>@drawable/foto_paha_belakang_petrisage</item>
+        <item>@drawable/foto_paha_belakang_petrissage_kneading</item>
+        <item>@drawable/foto_paha_belakang_petrissage_musclesqueezing</item>
+        <item>@drawable/foto_paha_belakang_petrissage_pikingup</item>
+        <item>@drawable/foto_paha_belakang_petrissage_wringing</item>
+        <item>@drawable/foto_paha_belakang_shaking</item>
+        <item>@drawable/foto_paha_belakang_walken</item>
+    </array>
+
+    <array name="data_video_paha_belakang">
+        <item>@raw/video_paha_belakang_effleurage_1</item>
+        <item>@raw/video_paha_belakang_effleurage_2</item>
+        <item>@raw/video_paha_belakang_effleurage_3</item>
+        <item>@raw/video_paha_belakang_effleurage_4</item>
+        <item>@raw/video_paha_belakang_effleurage_5</item>
+        <item>@raw/video_paha_belakang_petrisage</item>
+        <item>@raw/video_paha_belakang_petrissage_kneading</item>
+        <item>@raw/video_paha_belakang_petrissage_musclesqueezing</item>
+        <item>@raw/video_paha_belakang_petrissage_pikingup</item>
+        <item>@raw/video_paha_belakang_petrissage_wringing</item>
+        <item>@raw/video_paha_belakang_shaking</item>
+        <item>@raw/video_paha_belakang_walken</item>
+    </array>
+
+    <string-array name="data_description_paha_belakang">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        walken
+        <item>
+            Maksud : Maksud dan tujuan dari walken adalah sama dengan maksud effleurage hanya berbeda dalam pelaksanaannya.\n
+            Pengaruh fisiologis : Memberikan rangsangan pada persyarafan dan jaringan di bawah kulit.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:25) Walken adalah “teknik manipulasi yang bertujuan sama dengan effleurage. Walken dilakukan pada bagian tubuh yang berpenampang luas, dilakukan menyilang, menggunkan dua telapak tangan yang berbeda arah”. Walken merupakan gerakan yang biasanya dilakukan dengan arah melintang otot secara bergantian menggunakan tekanan dan gosokkan kedua tangan dengan arah yang berlawanan yang satu menarik dan yang satu mendorong. Teknik ini sering digunakan pada otot-otot yang lebar seperti puggung dan paha.
+        </item>
+    </string-array>
+
+    <string-array name="data_betis_belakang">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Effleurage 3</item>
+        <item>Effleurage 4</item>
+        <item>Petrissage</item>
+        <item>Petrissage Kneading</item>
+        <item>Petrissage Musclesqueezing</item>
+        <item>Petrissage Pikingup</item>
+        <item>Petrissage Wringing</item>
+        <item>Shaking 1</item>
+        <item>Shaking 2</item>
+        <item>Shaking 3</item>
+    </string-array>
+
+    <array name="data_photo_betis_belakang">
+        <item>@drawable/foto_betis_belakang_effleurage_1</item>
+        <item>@drawable/foto_betis_belakang_effleurage_2</item>
+        <item>@drawable/foto_betis_belakang_effleurage_3</item>
+        <item>@drawable/foto_betis_belakang_effleurage_4</item>
+        <item>@drawable/foto_betis_belakang_petrissage</item>
+        <item>@drawable/foto_betis_belakang_petrissage_kneading</item>
+        <item>@drawable/foto_betis_belakang_petrissage_musclesqueezing</item>
+        <item>@drawable/foto_betis_belakang_petrissage_pikingup</item>
+        <item>@drawable/foto_betis_belakang_petrissage_wringing</item>
+        <item>@drawable/foto_betis_belakang_shaking_1</item>
+        <item>@drawable/foto_betis_belakang_shaking_2</item>
+        <item>@drawable/foto_betis_belakang_shaking_3</item>
+    </array>
+
+    <array name="data_video_betis_belakang">
+        <item>@raw/video_betis_belakang_effleurage_1</item>
+        <item>@raw/video_betis_belakang_effleurage_2</item>
+        <item>@raw/video_betis_belakang_effleurage_3</item>
+        <item>@raw/video_betis_belakang_effleurage_4</item>
+        <item>@raw/video_betis_belakang_petrissage</item>
+        <item>@raw/video_betis_belakang_petrissage_kneading</item>
+        <item>@raw/video_betis_belakang_petrissage_musclesqueezing</item>
+        <item>@raw/video_betis_belakang_petrissage_pikingup</item>
+        <item>@raw/video_betis_belakang_petrissage_wringing</item>
+        <item>@raw/video_betis_belakang_shaking_1</item>
+        <item>@raw/video_betis_belakang_shaking_2</item>
+        <item>@raw/video_betis_belakang_shaking_3</item>
+    </array>
+
+    <string-array name="data_description_betis_belakang">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        petrissage
+        <item>
+            Maksud : Menghancurkan sisa pembakaran dan melemaskan kekakuan di dalam jaringan.\n
+            Tujuan : Untuk memudahkan pengangkutan.\n
+            Pengaruh fisiologis : Menyebabkan perbaikan aliran darah dalam otot dan menambah kekuatan (tonus) otot.\n
+            \t\t\tMenurut Darni, (2018:46) Petrissage adalah “gerakan yang dilakukan dengan memegang jaringan yang sebanyak mungkin dengan seluruh permukaan tangan dan jari-jari tangan yang ditekan tegak lurus terhadap jaringan dibawahnya”. Petrissage merupakan gerakan yang menggunakan teknik perasan, tekanan dan pencomotan. Dalam pelaksanaannya petrisage dapat dikerjakan dengan kedua tangan bersama-sama atau kedua tangan bergantian secara berurutan. Dalam petrissage terdapat beberapa jenis manipulasi diantaranya: Kneading (menekan dan mendorong secara bergantian), Muscle Squeezing (jaringan dipegang dan diremas dengan lembut disertai tekanan menurun ke arah aliran vena), Piking Up (memegang jaringan kemudian diangkat selanjutnya menekan dan mengendorkan manipulasi tanpa melepaskan pegangan), Wringing (meremas berlawanan arah secara bergantian). Untuk daerah yang sempit cukup dikerjakan dengan ujung-ujung jari. Teknik ini sering digunakan pada otot-otot yang terdapat pada tungkai maupun lengan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+    </string-array>
+
+    <string-array name="data_tumit_telapak_kaki">
+        <item>Effleurage 1</item>
+        <item>Effleurage 2</item>
+        <item>Shaking 1</item>
+        <item>Shaking 2</item>
+        <item>Shaking 3</item>
+    </string-array>
+
+    <array name="data_photo_tumit_telapak_kaki">
+        <item>@drawable/foto_tumit_telapak_kaki_effleurage_1</item>
+        <item>@drawable/foto_tumit_telapak_kaki_effleurage_2</item>
+        <item>@drawable/foto_tumit_telapak_kaki_petrisage_1</item>
+        <item>@drawable/foto_tumit_telapak_kaki_petrisage_2</item>
+        <item>@drawable/foto_tumit_telapak_kaki_petrisage_3</item>
+    </array>
+
+    <array name="data_video_tumit_telapak_kaki">
+        <item>@raw/video_tumit_telapak_kaki_effleurage_1</item>
+        <item>@raw/video_tumit_telapak_kaki_effleurage_2</item>
+        <item>@raw/video_tumit_telapak_kaki_petrisage_1</item>
+        <item>@raw/video_tumit_telapak_kaki_petrisage_2</item>
+        <item>@raw/video_tumit_telapak_kaki_petrisage_3</item>
+    </array>
+
+    <string-array name="data_description_tumit_telapak_kaki">
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        effleurage
+        <item>
+            Maksud : Memberikan rangsang kepada persyarafan dan jaringan dibawah kulit.\n
+            Tujuan : Membantu kerja pembuluh darah balik (Vena) dan sebagai pemanasan (warming up).\n
+            Pengaruh fisiologis : Mempengaruhi sirkulasi darah pada jaringan yang paling dalam di otot-otot.\n
+            \t\t\tMenurut Darni, (2018:39) Effleurage adalah “gerakan yang dilakukan dengan cara menggosok-gosokkan secara berulang-ulang ke arah yang sama”. Effleurage merupakan gerakan pembuka dan penutup dalam massage olahraga setelah anggota tubuh diratakan oleh bahan pelicin terlebih dahulu. Teknik manipulasi effleurage dalam pelaksanaannya dapat dilakukan dengan mempergunakan jari-jari, ibu jari, satu tangan, kedua tangan bergantian atau bersama-sama sesuai dengan daerah yang dipijatnya, lebar atau sempit. Teknik ini dapat digunakan pada otot-otot yang terdapat pada setiap anggota tubuh yang akan diberikan massage. Effleurage pada umumnya selalu dilaksanakan menyusur mengikuti perpanjangan otot dan menuju kearah jantung. Hal ini mempunyai pengertian bahwa pembuluh-pembuluh darah yang ada di tepi (di kulit), adalah pembuluh-pembuluh darah balik (vena) yang berisi darah mengalir kembali menuju jantung.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+        shaking
+        <item>
+            Maksud : Menempatkan bangunan-bangunan dibawah kulit (otot, pembuluh darah, persyarafan) pada tempatnya masing- masing.\n
+            Tujuan : Untuk memudahkan pengaliran atau pertukaran zat dalam bangunan-bangunan tersebut, pada tempatnya masing- masing.\n
+            Pengaruh fisiologis : Menyebabkan lancarnya peredaran darah dan meningkatkan kerja syaraf.\n
+            \t\t\tMenurut Setiawan, Arif, (2016:23) Shaking adalah “teknik massage dengan cara menggocangkan bagian tubuh yang akan dimasase”. Shaking merupakan gerakan yang dalam pelaksanaanya menggoncang-goncangkan otot-otot yang mengalami ketegangan yang dapat dilakukan dengan irama dan tangan berpindah-pindah. Teknik ini sering digunakan pada otot-otot yang mengalami ketegangan pada setiap bagian tubuh. Dengan shaking diharapkan dapat membantu mengendorkan ketegangan-ketegangan.
+        </item>
+    </string-array>
+
 </resources>

@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryDark">#6200EE</color>
+    <color name="colorPrimaryDark2">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
-    <color name="colorAcc">#FFEB3B</color>
-
+    <color name="colorAcc">#000000</color>
     <color name="white">#fff</color>
+
+    <color name="dot_inactive_screen1">#6F7ABC</color>
+    <color name="dot_inactive_screen2">#6F7ABC</color>
+    <color name="dot_inactive_screen3">#6F7ABC</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#3700B3</color>
+    <color name="dot_active_screen2">#3700B3</color>
+    <color name="dot_active_screen3">#3700B3</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
 </resources>

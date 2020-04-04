@@ -5,9 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.MediaController;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.cikarastudio.cikarapijatpenjas.R;
@@ -24,19 +24,22 @@ public class VideoActivity extends AppCompatActivity {
 
         TextView tvTitle = findViewById(R.id.title_masssage);
         TextView tvDescription = findViewById(R.id.description_massage);
-
         Massage massage = getIntent().getParcelableExtra(EXTRA_MASSAGE);
         String title = massage.getTitle();
         String description = massage.getDescription();
-
         tvTitle.setText(title);
         tvDescription.setText(description);
         int video = massage.getVideo();
 
+        getSupportActionBar().setTitle(title); //setjudultoolbar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         VideoView videoView = findViewById(R.id.video_view);
+
         String videoPath = "android.resource://" + getPackageName() + "/" + video;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
+
 
         MediaController mediaController = new MediaController(this);
         videoView.setMediaController(mediaController);

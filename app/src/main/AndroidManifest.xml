@@ -9,21 +9,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.VideoActivity"></activity>
-        <activity android:name=".activity.TutorialActivity" />
-        <activity android:name=".activity.AboutActivity" />
-        <activity android:name=".activity.MassageManipulationActivity" />
-        <activity android:name=".activity.MassagePreparationActivity" />
-        <activity android:name=".activity.MassageBenefitActivity" />
-        <activity android:name=".activity.MassageActivity" />
-        <activity android:name=".activity.AnatomiActivity" />
-        <activity android:name=".activity.MainActivity">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.IntroActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".activity.VideoActivity"
+            android:parentActivityName=".activity.MassageManipulationActivity" />
+        <activity
+            android:name=".activity.TutorialActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AboutActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.AnatomyActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.MassagePreparationActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.MassageBenefitActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.MassageSportActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.MassageManipulationActivity"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity android:name=".activity.MainActivity"></activity>
     </application>
 
 </manifest>

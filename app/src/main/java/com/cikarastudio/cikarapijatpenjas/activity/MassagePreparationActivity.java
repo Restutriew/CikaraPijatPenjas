@@ -12,5 +12,7 @@ public class MassagePreparationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_massage_preparation);
+        getSupportActionBar().setTitle("Persiapan Sebelum Massage");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
