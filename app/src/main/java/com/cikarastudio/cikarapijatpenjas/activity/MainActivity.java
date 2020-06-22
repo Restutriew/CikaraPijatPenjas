@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         CircleMenu circleMenu = findViewById(R.id.circle_menu);
 
         circleMenu.setMainMenu(Color.parseColor("#000000"), R.drawable.icon_menu, R.drawable.icon_cancel)
-                .addSubMenu(Color.parseColor("#30A400"), R.drawable.icon_massage)
+                .addSubMenu(Color.parseColor("#FFFB4A4A"), R.drawable.icon_manipulation)
                 .addSubMenu(Color.parseColor("#03DAC5"), R.drawable.icon_benefit)
                 .addSubMenu(Color.parseColor("#ffa000"), R.drawable.icon_preparation)
-                .addSubMenu(Color.parseColor("#FFFB4A4A"), R.drawable.icon_manipulation)
+                .addSubMenu(Color.parseColor("#30A400"), R.drawable.icon_massage)
                 .addSubMenu(Color.parseColor("#FF5722"), R.drawable.icon_tutorial)
                 .addSubMenu(Color.parseColor("#673AB7"), R.drawable.icon_about)
                 .addSubMenu(Color.parseColor("#258CFF"), R.drawable.icon_anatomi)

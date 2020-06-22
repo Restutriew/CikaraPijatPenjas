@@ -15,13 +15,11 @@ import com.cikarastudio.cikarapijatpenjas.R;
 public class SplashActivity extends AppCompatActivity {
     private int loadingTime = 4000;
 
-    //4000=4 detik
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        changeStatusBarColor();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -35,12 +33,5 @@ public class SplashActivity extends AppCompatActivity {
         }, loadingTime);
     }
 
-    private void changeStatusBarColor() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            Window window = getWindow();
-            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.setStatusBarColor(Color.TRANSPARENT);
-        }
-
-    }
 }
+

@@ -15,7 +15,11 @@ public class AnatomyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anatomy);
-        getSupportActionBar().setTitle("Anatomi");
+        getSupportActionBar().setTitle("Anatomi & Fisiologi");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+
+
     }
 }
